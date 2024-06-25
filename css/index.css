@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding-top: 100px;
+}
+
+main {
+  margin: auto;
+  width: 800px;
+  height: 400px;
+  background-color: #f5f5f5;
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+  line-height: 20px;
+  padding: 20px;
+}
+@media screen and (max-width: 720px) {
+  main {
+    flex-direction: column;
+  }
+}
+main article:nth-child(1) img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 400px;
+  height: 300px;
+}
+main article:nth-child(1) div:nth-child(2) {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+main article:nth-child(1) div:nth-child(2) div {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  cursor: pointer;
+  background-color: rgb(185, 183, 183);
+}
+main article:nth-child(1) div:nth-child(2) div:nth-child(2) {
+  background-color: rgb(112, 85, 62);
+}
+main article:nth-child(1) p {
+  color: rgb(161, 98, 82);
+  text-transform: uppercase;
+  font-size: small;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+main article:nth-child(1) div:nth-child(4) {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+main article:nth-child(1) div:nth-child(4) span {
+  cursor: pointer;
+  transition: ease-in-out 0.3s;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding-top: 5px;
+  border: solid rgba(54, 44, 44, 0.418) 1px;
+}
+main article:nth-child(1) div:nth-child(4) span:hover {
+  background-color: rgb(161, 98, 82);
+}
+main article:nth-child(1) div:nth-child(4) span:nth-child(4) {
+  background-color: rgb(161, 98, 82);
+}
+main article:nth-child(2) p:nth-child(1) {
+  color: rgb(161, 98, 82);
+  text-transform: uppercase;
+}
+main article:nth-child(2) h2:nth-child(2) {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+main article:nth-child(2) h2:nth-child(3) {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: rgb(161, 98, 82);
+}
+main article:nth-child(2) p:nth-child(4) {
+  font-weight: 600;
+  margin-top: 60px;
+}
+main article:nth-child(2) button {
+  margin-top: 105px;
+  height: 30px;
+  color: white;
+  padding: 0 10px;
+  border: none;
+}
+main article:nth-child(2) button:nth-child(5) {
+  background-color: rgb(161, 98, 82);
+}
+main article:nth-child(2) button:nth-child(6) {
+  background-color: rgba(161, 98, 82, 0.664);
+}/*# sourceMappingURL=index.css.map */
